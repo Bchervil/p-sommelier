@@ -1,0 +1,3 @@
+README
+
+Pocket-sommelier is a Ruby on Rails app that allows a user to answer a series of questions about a dish they are cooking or about to eat and receive a customized wine pairing suggestion.
