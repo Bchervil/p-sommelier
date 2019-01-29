@@ -27,32 +27,53 @@
 <body>
 
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> -->
 
-      <%= link_to(root_path, class: "navbar-brand") do %>
-        <span aria-hidden="true"></span>
-        <span id="logo">Pocket sommelier</span>
-      <% end %>
+        <%= link_to(root_path, class: "navbar-brand") do %>
+          <span aria-hidden="true"></span>
+          <span id="logo">Pocket Sommelier</span>
+        <% end %>
+        <br>
+        <br><br>
+
+        <div class="loader">
+		<div class="circle"></div>
+		<div class="wine"></div>
+		<div class="depth"></div>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+			<path class="st0" d="M50,51c4,0,7.4-2,9.8-4.8L39.4,20.7c-1,5.4-2.4,13-2.4,17.3C37,44.1,42.6,51,50,51z"/>
+			<path class="st1" d="M50,0C22.4,0,0,22.4,0,50s22.4,50,50,50s50-22.4,50-50S77.6,0,50,0z M59.3,14c0,0,3.7,17,3.7,24c0,6.1-5.6,13-13,13s-13-6.9-13-13c0-7,3.7-24,3.7-24H59.3z"/>
+			<path class="st2" d="M51.5,53.9C59.4,53.1,66,46,66,38c0-7.3-3.5-23.3-3.7-24l0,0h-3.1c0,0,3.7,17,3.7,24c0,6.1-5.6,13-13,13s-13-6.9-13-13c0-7,3.7-24,3.7-24h-3.1l0,0C37.5,14.7,34,30.7,34,38c0,8,6.6,15.1,14.5,15.9V83H38v3h24v-3H51.5V53.9z"/>
+		</svg>
+	</div>
+
+
+
+
+
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+
+
+
+
+
+        </ul>
+      </div><!--/.nav-collapse -->
     </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
+  </nav>
 
 
 
-        
-
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
 
 
 
