@@ -1,4 +1,4 @@
-class User < ActiveRecord::Migration[5.2]
+class AddAdminToUser < ActiveRecord::Migration[5.2]
   def change
     add_column :users, :admin, :boolean
   end
